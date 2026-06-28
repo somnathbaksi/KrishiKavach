@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evidence Locker | Krishi Kavach AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/mobile.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <main class="phone has-tabbar">
+    <section class="screen">
+      <header class="appbar">
+        <div class="title-row"><a class="icon-btn" href="dashboard.html"><i data-lucide="arrow-left"></i></a><div class="title-text"><h1>Evidence Locker</h1><span>Bills, photos, reports</span></div></div>
+        <a class="icon-btn" href="notifications.html"><i data-lucide="bell"></i></a>
+      </header>
+
+      <section class="metric-grid">
+        <div class="metric"><i data-lucide="receipt-text"></i><div><strong>5</strong><span>Purchase bills</span></div></div>
+        <div class="metric"><i data-lucide="package-search"></i><div><strong>11</strong><span>Packet photos</span></div></div>
+        <div class="metric"><i data-lucide="sprout"></i><div><strong>8</strong><span>Crop photos</span></div></div>
+        <div class="metric"><i data-lucide="file-check-2"></i><div><strong>1</strong><span>Draft report</span></div></div>
+      </section>
+
+      <section class="upload">
+        <div>
+          <div class="status-icon"><i data-lucide="folder-plus"></i></div>
+          <h2>Add new evidence</h2>
+          <p>Attach bill, packet photo, crop loss photo, video, or officer note.</p>
+          <a class="btn btn-primary" href="upload-evidence.html"><i data-lucide="upload"></i>Choose Files</a>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-head"><h2>Case Timeline</h2><span class="badge">KK-2026-014</span></div>
+        <div class="list">
+          <a class="list-row" href="case-timeline.html"><div class="status-icon ok"><i data-lucide="receipt-text"></i></div><div><strong>Product purchased</strong><span>Bill uploaded from dealer.</span></div><span class="badge">20 Jun</span></a>
+          <a class="list-row" href="case-timeline.html"><div class="status-icon warn"><i data-lucide="scan-line"></i></div><div><strong>Packet scanned</strong><span>QR and batch marked suspicious.</span></div><span class="badge yellow">22 Jun</span></a>
+          <a class="list-row" href="case-timeline.html"><div class="status-icon ok"><i data-lucide="sprout"></i></div><div><strong>Crop damage logged</strong><span>Leaf yellowing photos added.</span></div><span class="badge green">25 Jun</span></a>
+        </div>
+      </section>
+    </section>
+
+    <nav class="tabbar">
+      <a href="dashboard.html"><i data-lucide="home"></i>Home</a>
+      <a href="scan.html"><i data-lucide="scan-line"></i>Scan</a>
+      <a class="active" href="locker.html"><i data-lucide="folder-lock"></i>Locker</a>
+      <a href="report.html"><i data-lucide="file-warning"></i>Report</a>
+      <a href="profile.html"><i data-lucide="user-round"></i>Profile</a>
+    </nav>
+  </main>
+  <script src="assets/js/mobile.js"></script>
+</body>
+</html>

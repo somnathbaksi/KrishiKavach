@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile | Krishi Kavach AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/mobile.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <main class="phone has-tabbar">
+    <section class="screen">
+      <header class="appbar">
+        <div class="title-row"><a class="icon-btn" href="dashboard.html"><i data-lucide="arrow-left"></i></a><div class="title-text"><h1>Profile</h1><span>Farmer details</span></div></div>
+        <a class="icon-btn" href="login.html"><i data-lucide="log-out"></i></a>
+      </header>
+
+      <section class="profile-hero">
+        <div class="avatar">RP</div>
+        <div><h1 style="margin: 0;">Ramesh Patil</h1><p style="margin: 6px 0 0; color: #e7f2e5;">Cotton farmer, Tasgaon, Sangli</p></div>
+      </section>
+
+      <section class="card">
+        <div class="card-head"><h2>Farmer Details</h2><span class="badge green">Verified</span></div>
+        <form class="form">
+          <div class="field"><label for="name">Name</label><input id="name" type="text" value="Ramesh Patil"></div>
+          <div class="field"><label for="mobile">Mobile</label><input id="mobile" type="tel" value="+91 98765 43210"></div>
+          <div class="field"><label for="village">Village</label><input id="village" type="text" value="Tasgaon"></div>
+          <div class="field"><label for="crop">Primary Crop</label><input id="crop" type="text" value="Cotton"></div>
+          <a class="btn btn-primary" href="edit-profile.html"><i data-lucide="square-pen"></i>Edit Profile</a>
+        </form>
+      </section>
+
+      <section class="card">
+        <div class="card-head"><h2>More</h2><span class="badge">Settings</span></div>
+        <div class="list">
+          <a class="list-row" href="advisory.html"><div class="status-icon ok"><i data-lucide="headphones"></i></div><div><strong>Advisory & Officer Help</strong><span>Contacts and verification tips.</span></div><i data-lucide="chevron-right"></i></a>
+          <a class="list-row" href="crop-profile.html"><div class="status-icon ok"><i data-lucide="wheat"></i></div><div><strong>Crop Profile</strong><span>Land, crops, season, and field notes.</span></div><i data-lucide="chevron-right"></i></a>
+          <a class="list-row" href="settings.html"><div class="status-icon warn"><i data-lucide="settings"></i></div><div><strong>Settings</strong><span>Language, alerts, privacy, and app info.</span></div><i data-lucide="chevron-right"></i></a>
+          <a class="list-row" href="notifications.html"><div class="status-icon warn"><i data-lucide="bell"></i></div><div><strong>Notifications</strong><span>Risk alerts and evidence reminders.</span></div><i data-lucide="chevron-right"></i></a>
+        </div>
+      </section>
+    </section>
+
+    <nav class="tabbar">
+      <a href="dashboard.html"><i data-lucide="home"></i>Home</a>
+      <a href="scan.html"><i data-lucide="scan-line"></i>Scan</a>
+      <a href="locker.html"><i data-lucide="folder-lock"></i>Locker</a>
+      <a href="report.html"><i data-lucide="file-warning"></i>Report</a>
+      <a class="active" href="profile.html"><i data-lucide="user-round"></i>Profile</a>
+    </nav>
+  </main>
+  <script src="assets/js/mobile.js"></script>
+</body>
+</html>

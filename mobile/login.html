@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | Krishi Kavach AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/mobile.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <main class="phone auth-screen">
+    <div class="brand-row">
+      <div class="brand-mark"><i data-lucide="shield-check"></i></div>
+      <div class="brand-text"><strong>Krishi Kavach AI</strong><span>Welcome back</span></div>
+    </div>
+    <section class="auth-card">
+      <div class="auth-title"><h1>Login</h1><p>Access product scans, evidence locker, and complaint reports.</p></div>
+      <form class="form">
+        <div class="field"><label for="loginId">Mobile or Email</label><input id="loginId" type="text" placeholder="+91 98765 43210"></div>
+        <div class="field"><label for="password">Password</label><input id="password" type="password" placeholder="Enter password"></div>
+        <div class="auth-links"><label><input type="checkbox"> Remember</label><a href="forgot-password.html">Forgot password?</a></div>
+        <a class="btn btn-primary" href="dashboard.html"><i data-lucide="log-in"></i>Login</a>
+        <a class="btn btn-outline" href="otp-verification.html"><i data-lucide="message-square-text"></i>Login with OTP</a>
+      </form>
+      <div class="auth-links"><span>New user?</span><a href="register.html">Create account</a></div>
+    </section>
+  </main>
+  <script src="assets/js/mobile.js"></script>
+</body>
+</html>

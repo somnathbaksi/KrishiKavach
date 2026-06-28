@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Scan | Krishi Kavach AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/mobile.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <main class="phone has-tabbar">
+    <section class="screen">
+      <header class="appbar">
+        <div class="title-row"><a class="icon-btn" href="dashboard.html"><i data-lucide="arrow-left"></i></a><div class="title-text"><h1>Product Scan</h1><span>Packet, QR, batch, bill</span></div></div>
+        <a class="icon-btn" href="notifications.html"><i data-lucide="bell"></i></a>
+      </header>
+
+      <section class="upload">
+        <div>
+          <div class="status-icon"><i data-lucide="image-up"></i></div>
+          <h2>Upload packet photos</h2>
+          <p>Capture front, back, QR code, expiry, MRP, batch number, and bill.</p>
+          <button class="btn btn-primary" type="button" data-upload-demo><i data-lucide="plus"></i>Add Photos</button>
+        </div>
+      </section>
+
+      <section class="metric-grid">
+        <div class="metric"><i data-lucide="package"></i><div><strong>Front</strong><span data-front-status>Waiting</span></div></div>
+        <div class="metric"><i data-lucide="qr-code"></i><div><strong>QR</strong><span data-qr-status>Waiting</span></div></div>
+        <div class="metric"><i data-lucide="receipt-text"></i><div><strong>Bill</strong><span data-bill-status>Waiting</span></div></div>
+        <div class="metric"><i data-lucide="badge-check"></i><div><strong>72%</strong><span>Ready</span></div></div>
+      </section>
+
+      <section class="card">
+        <div class="card-head"><h2>Product Details</h2><span class="badge">Draft</span></div>
+        <form class="form">
+          <div class="field"><label for="type">Product Type</label><select id="type"><option>Seeds</option><option>Fertilizer</option><option>Pesticide</option></select></div>
+          <div class="field"><label for="brand">Brand</label><input id="brand" type="text" value="CropSafe Insecticide"></div>
+          <div class="field"><label for="batch">Batch Number</label><input id="batch" type="text" value="CS-9X-2048"></div>
+          <div class="field"><label for="seller">Seller</label><input id="seller" type="text" value="Mahalaxmi Krishi Seva Kendra"></div>
+          <button class="btn btn-primary" type="button" data-run-check><i data-lucide="sparkles"></i>Run AI Check</button>
+        </form>
+      </section>
+
+      <section class="card">
+        <a class="list-row" href="product-database.html"><div class="status-icon ok"><i data-lucide="database"></i></div><div><strong>Check product database</strong><span>Compare known label patterns and suspicious batch alerts.</span></div><i data-lucide="chevron-right"></i></a>
+      </section>
+
+      <section class="card">
+        <div class="card-head"><h2>AI Result</h2><span class="badge yellow" data-risk-badge>Review</span></div>
+        <div class="risk" data-risk>
+          <div class="status-icon warn"><i data-lucide="triangle-alert"></i></div>
+          <div><h2 data-risk-title>Medium Risk Detected</h2><p data-risk-text>Batch format and QR placement need manual verification.</p></div>
+        </div>
+      </section>
+    </section>
+
+    <nav class="tabbar">
+      <a href="dashboard.html"><i data-lucide="home"></i>Home</a>
+      <a class="active" href="scan.html"><i data-lucide="scan-line"></i>Scan</a>
+      <a href="locker.html"><i data-lucide="folder-lock"></i>Locker</a>
+      <a href="report.html"><i data-lucide="file-warning"></i>Report</a>
+      <a href="profile.html"><i data-lucide="user-round"></i>Profile</a>
+    </nav>
+  </main>
+  <script src="assets/js/mobile.js"></script>
+</body>
+</html>

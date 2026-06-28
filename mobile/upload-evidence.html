@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upload Evidence | Krishi Kavach AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/mobile.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <main class="phone has-tabbar">
+    <section class="screen">
+      <header class="appbar"><div class="title-row"><a class="icon-btn" href="locker.html"><i data-lucide="arrow-left"></i></a><div class="title-text"><h1>Upload Evidence</h1><span>Attach to case</span></div></div></header>
+      <section class="upload"><div><div class="status-icon"><i data-lucide="cloud-upload"></i></div><h2>Add file</h2><p>Upload bill, product photo, crop damage photo, video, or officer note.</p><button class="btn btn-primary" type="button">Choose File</button></div></section>
+      <section class="card">
+        <form class="form">
+          <div class="field"><label for="case">Linked Case</label><select id="case"><option>KK-2026-014 - CropSafe Insecticide</option><option>KK-2026-011 - GreenGrow Urea</option></select></div>
+          <div class="field"><label for="type">Evidence Type</label><select id="type"><option>Purchase bill</option><option>Product packet</option><option>Crop damage photo</option><option>Dealer note</option></select></div>
+          <div class="field"><label for="note">Note</label><textarea id="note" placeholder="Add location, date, or observation"></textarea></div>
+          <a class="btn btn-primary" href="locker.html">Save Evidence</a>
+        </form>
+      </section>
+    </section>
+    <nav class="tabbar"><a href="dashboard.html"><i data-lucide="home"></i>Home</a><a href="scan.html"><i data-lucide="scan-line"></i>Scan</a><a class="active" href="locker.html"><i data-lucide="folder-lock"></i>Locker</a><a href="report.html"><i data-lucide="file-warning"></i>Report</a><a href="profile.html"><i data-lucide="user-round"></i>Profile</a></nav>
+  </main>
+  <script src="assets/js/mobile.js"></script>
+</body>
+</html>

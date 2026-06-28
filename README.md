@@ -136,7 +136,7 @@ The folder contains `.gitkeep`; uploaded runtime files should not be committed i
 
 ## Notes
 
-- The `mobile/` prototype folder is intentionally ignored from Git upload.
+- The `mobile/` folder contains the standalone static mobile prototype screens.
 - The PHP app uses shared assets from `assets/css/mobile.css` and `assets/js/mobile.js`.
 - Browser geolocation requires user permission and works best on localhost or HTTPS.
 - AI scan result logic is currently prototype/demo logic and can be connected to a real model/API later.

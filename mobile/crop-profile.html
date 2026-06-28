@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crop Profile | Krishi Kavach AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/mobile.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <main class="phone has-tabbar">
+    <section class="screen">
+      <header class="appbar"><div class="title-row"><a class="icon-btn" href="profile.html"><i data-lucide="arrow-left"></i></a><div class="title-text"><h1>Crop Profile</h1><span>Fields and season</span></div></div></header>
+      <section class="metric-grid"><div class="metric"><i data-lucide="wheat"></i><div><strong>Cotton</strong><span>Primary crop</span></div></div><div class="metric"><i data-lucide="map"></i><div><strong>4.5</strong><span>Acres</span></div></div></section>
+      <section class="card">
+        <form class="form">
+          <div class="field"><label for="crop">Primary Crop</label><input id="crop" type="text" value="Cotton"></div>
+          <div class="field"><label for="season">Season</label><select id="season"><option>Kharif 2026</option><option>Rabi 2026</option></select></div>
+          <div class="field"><label for="area">Land Area</label><input id="area" type="text" value="4.5 acres"></div>
+          <div class="field"><label for="notes">Field Notes</label><textarea id="notes">Cotton field near canal road. Previous pesticide caused leaf yellowing.</textarea></div>
+          <a class="btn btn-primary" href="profile.html">Save Crop Profile</a>
+        </form>
+      </section>
+    </section>
+    <nav class="tabbar"><a href="dashboard.html"><i data-lucide="home"></i>Home</a><a href="scan.html"><i data-lucide="scan-line"></i>Scan</a><a href="locker.html"><i data-lucide="folder-lock"></i>Locker</a><a href="report.html"><i data-lucide="file-warning"></i>Report</a><a class="active" href="profile.html"><i data-lucide="user-round"></i>Profile</a></nav>
+  </main>
+  <script src="assets/js/mobile.js"></script>
+</body>
+</html>

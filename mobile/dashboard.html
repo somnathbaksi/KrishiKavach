@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard | Krishi Kavach AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/mobile.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <main class="phone has-tabbar">
+    <section class="screen">
+      <header class="appbar">
+        <div class="brand-row">
+          <div class="brand-mark"><i data-lucide="shield-check"></i></div>
+          <div class="brand-text"><strong>Krishi Kavach AI</strong><span>Tasgaon, Sangli</span></div>
+        </div>
+        <a class="icon-btn" href="notifications.html"><i data-lucide="bell"></i></a>
+      </header>
+
+      <section class="hero">
+        <h1>Scan before you spray or sow.</h1>
+        <p>Check packaging, save proof, and prepare complaint-ready evidence.</p>
+        <div class="actions"><a class="btn btn-yellow" href="scan.html"><i data-lucide="camera"></i>Scan</a><a class="btn btn-ghost" href="locker.html"><i data-lucide="upload"></i>Evidence</a></div>
+      </section>
+
+      <section class="metric-grid">
+        <div class="metric"><i data-lucide="scan-line"></i><div><strong>48</strong><span>Total scans</span></div></div>
+        <div class="metric"><i data-lucide="triangle-alert"></i><div><strong>7</strong><span>Risk alerts</span></div></div>
+        <div class="metric"><i data-lucide="folder-lock"></i><div><strong>36</strong><span>Locker files</span></div></div>
+        <div class="metric"><i data-lucide="file-check-2"></i><div><strong>72%</strong><span>Report ready</span></div></div>
+      </section>
+
+      <section class="card">
+        <div class="card-head"><h2>Action Center</h2><span class="badge yellow">3 pending</span></div>
+        <div class="list">
+          <a class="list-row" href="scan-detail.html"><div class="status-icon warn"><i data-lucide="camera"></i></div><div><strong>Retake QR close-up</strong><span>Last pesticide packet image was blurred.</span></div><span class="badge yellow">Today</span></a>
+          <div class="list-row"><div class="status-icon ok"><i data-lucide="receipt-text"></i></div><div><strong>Attach seller bill</strong><span>Seed complaint needs purchase proof.</span></div><span class="badge">Open</span></div>
+          <a class="list-row" href="case-detail.html"><div class="status-icon bad"><i data-lucide="file-warning"></i></div><div><strong>Submit report</strong><span>Fertilizer case has enough evidence.</span></div><span class="badge red">Urgent</span></a>
+        </div>
+        <div style="margin-top: 12px;"><a class="btn btn-outline" href="scan-history.html"><i data-lucide="history"></i>View Scan History</a></div>
+      </section>
+    </section>
+
+    <nav class="tabbar">
+      <a class="active" href="dashboard.html"><i data-lucide="home"></i>Home</a>
+      <a href="scan.html"><i data-lucide="scan-line"></i>Scan</a>
+      <a href="locker.html"><i data-lucide="folder-lock"></i>Locker</a>
+      <a href="report.html"><i data-lucide="file-warning"></i>Report</a>
+      <a href="profile.html"><i data-lucide="user-round"></i>Profile</a>
+    </nav>
+  </main>
+  <script src="assets/js/mobile.js"></script>
+</body>
+</html>

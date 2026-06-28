@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OTP Verification | Krishi Kavach AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/mobile.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <main class="phone auth-screen">
+    <div class="appbar"><a class="icon-btn" href="login.html"><i data-lucide="arrow-left"></i></a></div>
+    <section class="auth-card">
+      <div class="auth-title"><h1>Verify OTP</h1><p>Enter the six-digit code sent to +91 98765 43210.</p></div>
+      <form class="form">
+        <div class="otp-grid">
+          <input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1">
+          <input type="text" maxlength="1"><input type="text" maxlength="1"><input type="text" maxlength="1">
+        </div>
+        <a class="btn btn-primary" href="change-password.html"><i data-lucide="badge-check"></i>Verify OTP</a>
+      </form>
+      <div class="auth-links"><span>Did not receive code?</span><a href="otp-verification.html">Resend</a></div>
+    </section>
+  </main>
+  <script src="assets/js/mobile.js"></script>
+</body>
+</html>

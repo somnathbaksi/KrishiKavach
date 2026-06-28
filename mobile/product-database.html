@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Database | Krishi Kavach AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/mobile.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <main class="phone has-tabbar">
+    <section class="screen">
+      <header class="appbar"><div class="title-row"><a class="icon-btn" href="scan.html"><i data-lucide="arrow-left"></i></a><div class="title-text"><h1>Product Database</h1><span>Known label patterns</span></div></div></header>
+      <section class="card">
+        <form class="form"><div class="field"><label for="search">Search Product</label><input id="search" type="search" placeholder="Seed, fertilizer, pesticide"></div></form>
+      </section>
+      <section class="card">
+        <div class="list">
+          <div class="list-row"><div class="status-icon ok"><i data-lucide="package-check"></i></div><div><strong>Shakti Cotton Seeds</strong><span>Approved label pattern available.</span></div><span class="badge green">Listed</span></div>
+          <div class="list-row"><div class="status-icon warn"><i data-lucide="package-search"></i></div><div><strong>CropSafe Insecticide</strong><span>Recent suspicious batch reports.</span></div><span class="badge yellow">Watch</span></div>
+        </div>
+      </section>
+    </section>
+    <nav class="tabbar"><a href="dashboard.html"><i data-lucide="home"></i>Home</a><a class="active" href="scan.html"><i data-lucide="scan-line"></i>Scan</a><a href="locker.html"><i data-lucide="folder-lock"></i>Locker</a><a href="report.html"><i data-lucide="file-warning"></i>Report</a><a href="profile.html"><i data-lucide="user-round"></i>Profile</a></nav>
+  </main>
+  <script src="assets/js/mobile.js"></script>
+</body>
+</html>

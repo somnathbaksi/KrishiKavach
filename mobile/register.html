@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register | Krishi Kavach AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/mobile.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <main class="phone auth-screen">
+    <div class="appbar"><a class="icon-btn" href="login.html"><i data-lucide="arrow-left"></i></a></div>
+    <section class="auth-card">
+      <div class="auth-title"><h1>Create account</h1><p>Set up a farmer or field officer account.</p></div>
+      <form class="form">
+        <div class="field"><label for="role">Account Type</label><select id="role"><option>Farmer</option><option>Field Officer</option><option>NGO Worker</option></select></div>
+        <div class="field"><label for="name">Full Name</label><input id="name" type="text" placeholder="Ramesh Patil"></div>
+        <div class="field"><label for="mobile">Mobile Number</label><input id="mobile" type="tel" placeholder="+91 98765 43210"></div>
+        <div class="field"><label for="village">Village</label><input id="village" type="text" placeholder="Tasgaon"></div>
+        <div class="field"><label for="password">Password</label><input id="password" type="password" placeholder="Create password"></div>
+        <a class="btn btn-primary" href="otp-verification.html"><i data-lucide="user-plus"></i>Create Account</a>
+      </form>
+      <div class="auth-links"><span>Already registered?</span><a href="login.html">Login</a></div>
+    </section>
+  </main>
+  <script src="assets/js/mobile.js"></script>
+</body>
+</html>
